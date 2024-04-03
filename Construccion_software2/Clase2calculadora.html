@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Clase2.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="layout-calculator">
+<div class="layout-screen">
+    <span id="screen"></span>
+</div>
+        <div class = "button-container">
+            <div class="button-separation">
+                <div class="button" onclick="rendernumber('7')">
+                    7
+                </div>
+            </div>
+            <div class="button-separation">
+                <div class="button" onclick="rendernumber('8')">
+                    8
+                </div>
+            </div>
+            <div class="button-separation">
+                <div class="button" onclick="rendernumber('9')">
+                    9
+                </div>
+            </div>
+            <div class="button-separation">
+                <div class="button" onclick="operator('X')">
+                    X
+                </div>
+            </div>
+        </div> 
+        <div class = "button-container">
+            <div class="button-separation">
+                <div class="button" onclick="rendernumber('4')">
+                    4
+                </div>
+            </div>
+            <div class="button-separation">
+                <div class="button" onclick="rendernumber('5')">
+                    5
+                </div>
+            </div>
+            <div class="button-separation">
+                <div class="button" onclick="rendernumber('6')">
+                    6
+                </div>
+            </div>
+            <div class="button-separation">
+                <div class="button" onclick="operator('-')">
+                    -
+                </div>
+            </div>
+        </div> 
+        <div class = "button-container">
+            <div class="button-separation">
+                <div class="button" onclick="rendernumber('1')">
+                    1
+                </div>
+            </div>
+            <div class="button-separation">
+                <div class="button" onclick="rendernumber('2')">
+                    2
+                </div>
+            </div>
+            <div class="button-separation">
+                <div class="button" onclick="rendernumber('3')">
+                    3
+                </div>
+            </div>
+            <div class="button-separation">
+                <div class="button" onclick="operator('+')">
+                    +
+                </div>
+            </div>
+        </div> 
+        <div class = "button-container">
+            <div class="button-separation">
+                <div class="button-cero" onclick="rendernumber('0')">
+                    0
+                </div>
+            </div>
+            <div class="button-separation">
+                <div class="button" onclick="operator('.')">
+                    .
+                </div>
+            </div>
+            <div class="button-separation">
+                <div class="button" onclick="operator('=')">
+                    =
+                </div>
+            </div>
+        </div> 
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
