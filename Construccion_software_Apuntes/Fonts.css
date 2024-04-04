@@ -1,0 +1,56 @@
+.container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:70%;
+    margin: 0 auto;
+}
+
+sub{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width:70%;
+    margin: 0 auto;
+}
+
+img{
+    align-items: center;
+    justify-content:center;
+    width:70%;
+    height: auto;
+}
+
+h2 {
+  margin-top: 20px;
+  align-items: center;
+  justify-content:center;
+}
+
+ul {
+  margin-top: 10px;
+  align-items: center;
+  justify-content:center;
+}
+
+li {
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content:center;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow-x: auto;
+  align-items: center;
+  justify-content:center;
+}
+
+code {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  align-items: center;
+  justify-content:center;
+}
